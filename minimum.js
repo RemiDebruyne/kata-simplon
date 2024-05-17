@@ -10,11 +10,10 @@
 
 // ```
 
-let result = 0;
 function findMinNumber(...parameter) {
   result = Math.min(...parameter);
   return result;
 }
 
-findMinNumber(-2, 2, 3, 6);
+findMinNumber(-8, 2, 3, 6);
 console.log(result);
