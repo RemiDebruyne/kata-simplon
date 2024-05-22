@@ -17,7 +17,7 @@
 
 function countChar(str, char) {
   let charAmount = 0;
-  for (letter in str) {
+  for (letter of str) {
     if (letter === char) {
       charAmount += 1;
     }
